@@ -1,0 +1,87 @@
+﻿<Page x:ConnectionId='1'
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RaspberryPiV3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Telerik.UI.Xaml.Controls.Grid"
+    x:Class="RaspberryPiV3.Bolgeler"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.495,0.611">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="299*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="520*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" Margin="3,0,0,0" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2">
+            <Button x:ConnectionId='11' x:Name="btnanasayfa" Content="Ana Sayfa" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                          />
+            <Button x:ConnectionId='12' x:Name="btndepo" Content="Depo Durumu" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                      />
+            <Button x:ConnectionId='13' x:Name="btnbolgeler" Content="Bölgeler" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                          />
+            <Button x:ConnectionId='14' x:Name="btnurunler" Content="Ürünler" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                         />
+            <Button x:ConnectionId='15' x:Name="btnarabalar" Content="Arabalar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                          />
+            <Button x:ConnectionId='16' x:Name="btnkullanicilar" Content="Kullanıcılar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                              />
+            <Button x:ConnectionId='17' x:Name="btniletisim" Content="İletişim" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="43" Foreground="White" Background="#FF004595" BorderBrush="#FFFFFBFB" FontSize="11"                          />
+        </StackPanel>
+        <Grid Margin="3,4,0,0" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Background="White" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="149*" MaxHeight="149"/>
+                <RowDefinition Height="148*" MaxHeight="146"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="259*" MaxWidth="259"/>
+                <ColumnDefinition Width="258*" MaxWidth="258"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Margin="211,-4,0,0" Text="Bölgeler Listesi" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFF72929" Foreground="#FFE42020" Height="20" FontSize="13" HorizontalAlignment="Left" Width="95" Grid.ColumnSpan="2"/>
+            <TextBlock Margin="225,148,0,0" Text="Bölge Ekle" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="#FFF72929" Foreground="#FFE42020" Height="20" FontSize="13" HorizontalAlignment="Left" Width="65" Grid.ColumnSpan="2" Grid.Column="0" Grid.RowSpan="2"/>
+
+            <Custom:RadDataGrid x:ConnectionId='6' x:Name="datagridbolgeler" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="8,16,0,7" Width="495" FontSize="10" Grid.Column="0" Grid.Row="0" x:FieldModifier="public" ItemsSource="{Binding}">
+                <Custom:RadDataGrid.Columns>
+                    <Custom:DataGridNumericalColumn PropertyName="BolgeId" Header="BolgeId"/>
+                    <Custom:DataGridTextColumn PropertyName="BolgeAd" Header="BolgeAd"/>
+                    <Custom:DataGridNumericalColumn PropertyName="BolgeDepo" Header="BolgeDepo"/>
+                    <Custom:DataGridNumericalColumn PropertyName="BolgeUrunStok" Header="BolgeUrunStok"/>
+                </Custom:RadDataGrid.Columns>
+            </Custom:RadDataGrid>
+            <TextBlock Width="100" VerticalAlignment="Top" TextWrapping="Wrap" Text="Bölge Adı        : " Grid.Row="1" Margin="42,41,0,0" Height="16" HorizontalAlignment="Left" FontSize="10"/>
+            <TextBox x:ConnectionId='7' x:Name="txtkadi" HorizontalAlignment="Left" Margin="132,37,0,0" Text="" VerticalAlignment="Top" Height="25" Width="100" MinHeight="11" MinWidth="25" Padding="4,4,6,4" FontSize="9" BorderThickness="1,1,1,1" Grid.Row="1">
+                <TextBox.Background>
+                    <ImageBrush/>
+                </TextBox.Background>
+            </TextBox>
+            <Button x:ConnectionId='8' Content="✓" HorizontalAlignment="Stretch" Margin="158,78,75,0" VerticalAlignment="Top" RenderTransformOrigin="0.602,-1.68" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="25" Grid.Column="1" FocusVisualPrimaryBrush="#FF4ED128" Background="#FF33B41F" Foreground="#FFFDFFFD" FontSize="12" FontWeight="Bold" Padding="4,0,4,0" Grid.Row="1"                       >
+                <Button.RenderTransform>
+                    <CompositeTransform Rotation="-0.064" TranslateX="-0.062" TranslateY="-0.003"/>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:ConnectionId='9' x:Name="btnsifirla" Content="X" HorizontalAlignment="Right" Margin="0,78,44,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="25" Grid.Column="1" FocusVisualPrimaryBrush="#FFEA3D3D" Background="#FFEA3D3D" Foreground="#FFFDFFFD" FontSize="10" FontWeight="Normal" Padding="4,0,4,0" Width="25" Grid.Row="1"                         >
+                <Button.RenderTransform>
+                    <CompositeTransform Rotation="-0.064"/>
+                </Button.RenderTransform>
+            </Button>
+            <TextBlock Width="100" VerticalAlignment="Top" TextWrapping="Wrap" Text="Depo Id     :" Grid.Row="1" Margin="17,40,0,0" Height="16" HorizontalAlignment="Left" FontSize="10" Grid.Column="1"/>
+            <ComboBox x:ConnectionId='10' x:Name="cmbbolgeid" HorizontalAlignment="Left" Margin="115,35,0,0" VerticalAlignment="Top" Height="25" Width="100" FontSize="9" BorderThickness="1,1,1,1" Grid.Row="1"                                Grid.Column="1"/>
+
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="48" Margin="17,0,0,0" VerticalAlignment="Top" Width="62" Source="Assets/truck-icon-66.png" Stretch="Fill" Grid.Column="1" Canvas.ZIndex="2"/>
+        <TextBlock x:ConnectionId='2' x:Name="txtarabad" Grid.ColumnSpan="3" HorizontalAlignment="Left" Margin="233,14,-295,-34" Grid.RowSpan="3" Text="Araba Adı : " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9" Canvas.ZIndex="2" Foreground="White"/>
+        <TextBlock x:ConnectionId='3' x:Name="txtarabadurum" HorizontalAlignment="Left" Margin="116,35,0,0" Text="Araba Durumu :" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9" Grid.Column="1" Canvas.ZIndex="2" Foreground="White"/>
+        <TextBlock x:ConnectionId='4' x:Name="txtarabasicaklik" HorizontalAlignment="Left" Margin="261,14,0,0" Text="Araba Sıcaklık Değeri : " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9" Grid.Column="1" Canvas.ZIndex="2" Foreground="White"/>
+        <TextBlock x:ConnectionId='5' x:Name="txtarabanem" HorizontalAlignment="Left" Margin="262,35,0,0" Text="Araba Nem Değeri : " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9" Grid.Column="1" Canvas.ZIndex="2" Foreground="White"/>
+        <Rectangle HorizontalAlignment="Left" Margin="117,0,-640,-58" Grid.RowSpan="3" VerticalAlignment="Top" FocusVisualSecondaryBrush="#99FFFFFF" Fill="#FF004595" Grid.ColumnSpan="3" Width="523" Height="58" Canvas.ZIndex="1" FocusVisualPrimaryBrush="{x:Null}" />
+        <Image HorizontalAlignment="Left" Height="59" Margin="0,0,-116,-59" VerticalAlignment="Top" Width="116" Source="Assets/warehouse-512.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <Image.FocusVisualPrimaryBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Image.FocusVisualPrimaryBrush>
+        </Image>
+    </Grid>
+</Page>
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RaspberryPi Depo Otomasyon</string>
+    <string name="title_activity_depo_bilgileri">DepoBilgileri</string>
+</resources>

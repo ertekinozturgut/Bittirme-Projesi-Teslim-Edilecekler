@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="RaspberryPiV3.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RaspberryPiV3"
+    RequestedTheme="Light">
+
+</Application>
+

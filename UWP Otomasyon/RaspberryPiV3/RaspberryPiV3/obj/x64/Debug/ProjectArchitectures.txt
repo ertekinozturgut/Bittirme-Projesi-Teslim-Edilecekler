@@ -1,0 +1,1 @@
+C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\RaspberryPiV3.csproj;x64

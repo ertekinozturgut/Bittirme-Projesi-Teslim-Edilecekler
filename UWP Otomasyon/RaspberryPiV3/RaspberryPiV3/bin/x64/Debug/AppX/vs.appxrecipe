@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-18U6A0V</Machine>
+    <WindowsUser>Ertekin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>525a0037-938f-4a13-a973-35afef6ddcd8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Ertekin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>47F05E8D050DB92A3F001723B6F3908F35BA796678990317717F391272F6172B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>525a0037-938f-4a13-a973-35afef6ddcd8_1.0.0.0_x64__xxv8q699hpaqc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>525a0037-938f-4a13-a973-35afef6ddcd8_xxv8q699hpaqc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>525a0037-938f-4a13-a973-35afef6ddcd8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ertekin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T20:39:00.825</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\RaspberryPiV3.exe">
+      <PackagePath>entrypoint\RaspberryPiV3.exe</PackagePath>
+      <Modified>2018-06-09T20:38:57.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Core\17.1\References\CommonConfiguration\neutral\DevExpress.Core.v17.1.dll">
+      <PackagePath>DevExpress.Core.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Core\17.1\References\CommonConfiguration\neutral\DevExpress.Drawing.v17.1.dll">
+      <PackagePath>DevExpress.Drawing.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Core\17.1\References\CommonConfiguration\neutral\DevExpress.Mvvm.v17.1.dll">
+      <PackagePath>DevExpress.Mvvm.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Controls\17.1\References\CommonConfiguration\neutral\DevExpress.Pdf.Core.v17.1.dll">
+      <PackagePath>DevExpress.Pdf.Core.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Core\17.1\References\CommonConfiguration\neutral\DevExpress.Themes.v17.1.dll">
+      <PackagePath>DevExpress.Themes.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Visualization\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Charts.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Charts.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Controls\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Controls.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Controls.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Controls\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Editors.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Editors.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Visualization\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Gauges.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Gauges.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Data\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Grid.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Grid.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Controls\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Layout.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Layout.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Visualization\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Map.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Map.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Controls\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.Ribbon.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.Ribbon.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\DevExpress\Components\System\UAP\SDK\17.1.3\DevExpress.Core\17.1\References\CommonConfiguration\neutral\DevExpress.UI.Xaml.v17.1.dll">
+      <PackagePath>DevExpress.UI.Xaml.v17.1.dll</PackagePath>
+      <Modified>2018-04-13T16:29:56.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.Core.dll">
+      <PackagePath>Telerik.Core.dll</PackagePath>
+      <Modified>2017-10-18T14:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.Data.dll">
+      <PackagePath>Telerik.Data.dll</PackagePath>
+      <Modified>2017-10-18T14:02:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.Chart.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.DataVisualization.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\References\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP.dll</PackagePath>
+      <Modified>2017-10-18T14:02:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\lightbuzz-smtp\1.8.0\lib\netcore\LightBuzz.SMTP.dll">
+      <PackagePath>LightBuzz.SMTP.dll</PackagePath>
+      <Modified>2017-01-30T22:07:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-06-11T20:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.configuration\1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.configuration.abstractions\1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.configuration.fileextensions\1.1.2\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.FileExtensions.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.configuration.json\1.1.2\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Json.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.fileproviders.abstractions\1.1.1\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.fileproviders.physical\1.1.1\lib\netstandard1.3\Microsoft.Extensions.FileProviders.Physical.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Physical.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.filesystemglobbing\1.1.1\lib\netstandard1.3\Microsoft.Extensions.FileSystemGlobbing.dll">
+      <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.extensions.primitives\1.1.1\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2017-04-27T15:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-07-01T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-06-11T20:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\lib\netstandard1.3\MySql.Data.dll">
+      <PackagePath>MySql.Data.dll</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T20:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-11-05T01:55:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-11-05T01:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-11-05T01:55:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-11-05T01:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-11-05T01:55:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-11-05T01:56:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-11-05T01:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T01:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-11-05T01:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-11-05T01:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-11-05T01:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-11-05T01:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-11-05T01:57:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T01:57:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-11-05T01:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-11-05T01:57:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:55:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.console\4.3.0\runtimes\win\lib\netcore50\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+      <Modified>2016-11-05T01:55:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-11-05T01:55:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-11-05T01:56:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-11-05T01:56:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T01:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win7-x64.microsoft.netcore.jit\1.0.3\runtimes\win7-x64\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T15:26:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win7-x64.runtime.native.system.data.sqlclient.sni\4.3.0\runtimes\win7-x64\native\sni.dll">
+      <PackagePath>sni.dll</PackagePath>
+      <Modified>2016-10-27T17:38:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-11-05T01:34:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-11-05T01:56:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.appcontext\4.3.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-11-05T01:55:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2016-11-05T01:55:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.collections.concurrent\4.3.0\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-11-05T01:55:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-06-11T20:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.collections.nongeneric\4.3.0\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-11-05T01:55:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-06-11T20:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.componentmodel\4.3.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-11-05T01:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.componentmodel.annotations\4.3.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-11-05T01:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-06-11T20:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.componentmodel.primitives\4.3.0\lib\netstandard1.0\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.componentmodel.typeconverter\4.3.0\lib\netstandard1.0\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2016-11-05T01:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.data.common\4.3.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-11-05T01:55:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.data.sqlclient\4.3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+      <Modified>2017-04-19T13:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.diagnostics.contracts\4.3.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-11-05T01:55:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.diagnostics.diagnosticsource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2016-11-05T01:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-07-01T12:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.diagnostics.textwritertracelistener\4.3.0\lib\netstandard1.3\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+      <Modified>2016-11-05T01:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.diagnostics.tracesource\4.3.0\runtimes\win\lib\netstandard1.3\System.Diagnostics.TraceSource.dll">
+      <PackagePath>System.Diagnostics.TraceSource.dll</PackagePath>
+      <Modified>2016-11-05T01:55:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.dynamic.runtime\4.3.0\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-11-05T01:56:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T20:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.compression\4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-11-05T01:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.compression.zipfile\4.3.0\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-11-05T01:56:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-06-11T20:13:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.memorymappedfiles\4.3.0\runtimes\win\lib\netcore50\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2016-11-05T01:56:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.io.unmanagedmemorystream\4.3.0\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-11-05T01:56:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.linq\4.3.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-11-05T01:56:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.linq.expressions\4.3.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-11-05T01:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T20:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-06-11T20:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.http\4.3.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-11-05T01:56:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-06-11T20:13:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.nameresolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2016-11-05T01:56:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-06-11T20:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-06-11T20:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-06-11T20:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2016-06-11T20:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2017-11-20T11:34:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-06-11T20:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T20:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.objectmodel\4.3.0\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-11-05T01:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2017-02-09T10:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2017-12-12T21:31:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-06-11T20:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-06-11T20:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-06-11T20:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.emit.ilgeneration\4.3.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-11-05T01:56:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.emit.lightweight\4.3.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-11-05T01:56:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-06-11T20:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.reflection.typeextensions\4.3.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-11-05T01:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.compilerservices.unsafe\4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2016-11-05T01:56:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.interopservices.runtimeinformation\4.3.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+      <Modified>2016-11-05T01:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T20:14:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.numerics\4.3.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-11-05T01:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.serialization.formatters\4.3.0\lib\netstandard1.4\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+      <Modified>2016-11-05T01:56:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2017-02-09T10:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.serialization.primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2017-02-09T10:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.windowsruntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-11-05T01:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-06-11T20:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.claims\4.3.0\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-11-05T01:57:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.cryptography.algorithms\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2016-11-05T01:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.cryptography.cng\4.3.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2016-11-05T01:57:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.cryptography.encoding\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2016-11-05T01:57:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.cryptography.primitives\4.3.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2016-11-05T01:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.cryptography.x509certificates\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2016-11-05T01:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.principal\4.3.0\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-11-05T01:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.security.principal.windows\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+      <Modified>2016-11-05T01:57:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2017-12-12T21:31:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2017-12-12T21:31:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2017-12-12T21:31:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2017-12-12T21:31:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2017-12-12T21:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.text.encoding.codepages\4.3.0\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-11-05T01:57:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.text.regularexpressions\4.3.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-11-05T01:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-11-05T01:57:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.threading.overlapped\4.3.0\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-11-05T01:57:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-06-11T20:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.threading.tasks.extensions\4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2016-11-05T01:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T20:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.xml.readerwriter\4.3.0\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-11-05T01:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.xml.xdocument\4.3.0\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-11-05T01:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-06-11T20:15:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-06-11T20:15:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xbf">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Chart.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.DataVisualization.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xbf">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.DataVisualization.UWP\Themes\Resources.xbf">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\Resources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Themes\Resources.xbf">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\Resources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\Resources.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Resources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xbf">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xbf</PackagePath>
+      <Modified>2017-10-18T14:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Program Files\TelerikUi\UWP\SDKs\Telerik UI for Universal Windows Platform\Redist\CommonConfiguration\neutral\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png</PackagePath>
+      <Modified>2017-10-18T14:00:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\894f0362.png">
+      <PackagePath>Assets\894f0362.png</PackagePath>
+      <Modified>2018-04-23T16:46:11.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\icon_firealarms.png">
+      <PackagePath>Assets\icon_firealarms.png</PackagePath>
+      <Modified>2018-04-23T16:46:11.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\iot-1024x746.png">
+      <PackagePath>Assets\iot-1024x746.png</PackagePath>
+      <Modified>2018-06-03T12:40:55.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\jw_dislike_disable.png">
+      <PackagePath>Assets\jw_dislike_disable.png</PackagePath>
+      <Modified>2018-05-07T19:14:11.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\Thumbs up icon - 500px.png">
+      <PackagePath>Assets\Thumbs up icon - 500px.png</PackagePath>
+      <Modified>2018-04-23T16:46:11.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\truck-icon-61416.png">
+      <PackagePath>Assets\truck-icon-61416.png</PackagePath>
+      <Modified>2018-06-03T12:42:35.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\truck-icon-66.png">
+      <PackagePath>Assets\truck-icon-66.png</PackagePath>
+      <Modified>2018-06-03T13:18:09.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\truck-icon.png">
+      <PackagePath>Assets\truck-icon.png</PackagePath>
+      <Modified>2018-06-03T11:44:39.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\warehouse-512.png">
+      <PackagePath>Assets\warehouse-512.png</PackagePath>
+      <Modified>2018-06-03T11:19:42.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-09T17:42:02.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Assets\leopard-mac-wallpaper-wallpapers-ubuntu-photo.jpg">
+      <PackagePath>Assets\leopard-mac-wallpaper-wallpapers-ubuntu-photo.jpg</PackagePath>
+      <Modified>2018-04-23T16:46:11.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-04-23T16:41:19.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlCommand.xml">
+      <PackagePath>MySqlCommand.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlCommandBuilder.xml">
+      <PackagePath>MySqlCommandBuilder.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlConnection.xml">
+      <PackagePath>MySqlConnection.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlConnectionStringBuilder.xml">
+      <PackagePath>MySqlConnectionStringBuilder.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlDataAdapter.xml">
+      <PackagePath>MySqlDataAdapter.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlDataReader.xml">
+      <PackagePath>MySqlDataReader.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlException.xml">
+      <PackagePath>MySqlException.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlHelper.xml">
+      <PackagePath>MySqlHelper.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlParameter.xml">
+      <PackagePath>MySqlParameter.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlParameterCollection.xml">
+      <PackagePath>MySqlParameterCollection.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\docs\MySqlTransaction.xml">
+      <PackagePath>MySqlTransaction.xml</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\app.config.transform">
+      <PackagePath>app.config.transform</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard1.3\web.config.transform">
+      <PackagePath>web.config.transform</PackagePath>
+      <Modified>2018-01-18T05:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\RaspberryPiV3.xr.xml">
+      <PackagePath>RaspberryPiV3.xr.xml</PackagePath>
+      <Modified>2018-06-09T20:38:56.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.16299.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2017-09-28T22:58:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-09-28T14:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T20:39:00.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ertekin\source\repos\RaspberryPiV3\RaspberryPiV3\bin\x64\Debug\Core\RaspberryPiV3.exe">
+      <PackagePath>RaspberryPiV3.exe</PackagePath>
+      <Modified>2018-06-09T20:39:00.811</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

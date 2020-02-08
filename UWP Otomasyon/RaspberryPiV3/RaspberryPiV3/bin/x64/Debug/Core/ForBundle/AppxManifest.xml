@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    BU PAKET BİLDİRİM DOSYASI, OLUŞTURMA İŞLEMİ TARAFINDAN OLUŞTURULMUŞTUR.
+
+    Bu dosya yeniden oluşturulduğunda yapılan değişiklikler kaybolur. Bu dosyadaki hataları düzeltmek için kaynak .appxmanifest dosyasını düzenleyin.
+
+    Paket bildirim dosyaları hakkında daha fazla bilgi için bkz. http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="525a0037-938f-4a13-a973-35afef6ddcd8" Publisher="CN=Ertekin" Version="3.0.0.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="525a0037-938f-4a13-a973-35afef6ddcd8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>RaspberryPiV3</DisplayName>
+    <PublisherDisplayName>Ertekin</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.14393.0" MaxVersionTested="10.0.16299.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.26128.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.25915.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="TR-TR" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="120" />
+    <Resource uap:Scale="140" />
+    <Resource uap:Scale="160" />
+    <Resource uap:Scale="180" />
+    <Resource uap:DXFeatureLevel="dx9" />
+    <Resource uap:DXFeatureLevel="dx10" />
+    <Resource uap:DXFeatureLevel="dx11" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="220" />
+    <Resource uap:Scale="240" />
+    <Resource uap:Scale="300" />
+    <Resource uap:Scale="400" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="RaspberryPiV3.exe" EntryPoint="RaspberryPiV3.App">
+      <uap:VisualElements DisplayName="RaspberryPiV3" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="RaspberryPiV3" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2017" />
+    <build:Item Name="OperatingSystem" Version="10.0.17134.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27428.2027" />
+    <build:Item Name="ProjectGUID" Value="{CB1B307B-1A5C-43BC-AD9E-36FF08719E0A}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Managed" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27428.2027" />
+    <build:Item Name="DevExpress.Controls" Version="17.1" />
+    <build:Item Name="DevExpress.Core" Version="17.1" />
+    <build:Item Name="DevExpress.Data" Version="17.1" />
+    <build:Item Name="DevExpress.Visualization" Version="17.1" />
+    <build:Item Name="Telerik UI For Universal Windows Platform" Version="2017.3.1018.45" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

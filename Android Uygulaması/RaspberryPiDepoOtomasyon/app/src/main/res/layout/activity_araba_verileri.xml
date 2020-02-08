@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ArabaVerileri">
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RelativeLayout
+            android:id="@+id/rlvust"
+            android:layout_width="410dp"
+            android:layout_height="140dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="18dp"
+                app:srcCompat="@drawable/truck" />
+
+            <TextView
+                android:id="@+id/txtarabaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="158dp"
+                android:text="Araba :"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlvalt"
+            android:layout_width="410dp"
+            android:layout_height="519dp"
+            android:layout_below="@+id/rlvust"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/rlvalt1"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="416dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtveriid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_weight="1"
+                        android:text="Veri ID :\n"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txttarih"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:text="Veri Tarihi : \n"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlvalt2"
+                android:layout_width="match_parent"
+                android:layout_height="423dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/chartaraba"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="39dp"
+                    android:padding="50dp"></com.github.mikephil.charting.charts.PieChart>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="RaspberryPiV3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RaspberryPiV3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="frm">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/leopard-mac-wallpaper-wallpapers-ubuntu-photo.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btngiris" Content="Giriş" HorizontalAlignment="Left" Margin="43,233,0,0" VerticalAlignment="Top" Foreground="#FF538ACD" FontSize="22" Click="btngiris_Click" FontFamily="Maiandra GD" FocusVisualPrimaryBrush="Yellow" Width="78"/>
+        <Button x:Name="btnkayit" Content="Kayıt" HorizontalAlignment="Left" Margin="122,233,0,0" VerticalAlignment="Top" Foreground="#FFFF2B78" FontSize="22" FontFamily="Maiandra GD" FocusVisualPrimaryBrush="Yellow" Click="btnkayit_Click"/>
+        <TextBox x:Name="txtkad" HorizontalAlignment="Left" Margin="44,156,0,0" Text="Kullanıcı Adı" VerticalAlignment="Top" Width="146" BorderBrush="#00000000" Foreground="White" SelectionHighlightColor="WhiteSmoke"/>
+        <PasswordBox x:Name="txtksifre" HorizontalAlignment="Left" Margin="44,192,0,0" VerticalAlignment="Top" Width="146" PlaceholderText="" BorderBrush="#00000000" Foreground="White"/>
+        <TextBlock x:Name="txtsonuc" HorizontalAlignment="Left" Margin="291,52,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FocusVisualPrimaryBrush="White"/>
+    </Grid>
+</Page>
